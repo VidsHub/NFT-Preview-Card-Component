@@ -52,7 +52,7 @@ I learned how to overlap image with another element.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Name - [Vidhya Sankaran]
 - Frontend Mentor - [@Vidshub](https://www.frontendmentor.io/profile/yourusername)
 
 
