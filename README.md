@@ -58,6 +58,6 @@ I learned how to overlap image with another element.
 
 ## Acknowledgments
 
-Thanks to TsbSankara's video on Youtube explaining the section on how to overlap an image with another element. 
+Thanks to wwwcoder's feedback on my work, I was able to use the ::before and ::after pseudo elements for main image overlay. 
 
 

@@ -12,28 +12,29 @@
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
 <body>
-  <article class="card">
-    <div class="card__image__group">
-      <img class="card__image" src="images/image-equilibrium.jpg" alt="image of a cube on its edge">
-      <div class="card__image-cyan"><img src="images/icon-view.svg" alt="image of eye"></div>
-  </div>
-    <h1><a href="#">Equilibrium #3429</a></h1>
-    <p class="card__description">Our Equilibrium collection promotes balance and calm.</p>
-    <div class="card__stats flex-group">
-      <div class="card__points flex-group">
-        <img class="card__icon" src="images/icon-ethereum.svg" alt="">
-        <p class="card__points-user">0.041 ETH</p>
+  <main>
+    <article class="card">
+      <picture class="card__image">
+        <img src="images/image-equilibrium.jpg" alt="image of a cube on its edge">
+      </picture>
+      <h1><a href="#">Equilibrium #3429</a></h1>
+      <p class="card__description">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="card__stats flex-group">
+        <div class="card__points flex-group">
+          <img class="card__icon" src="images/icon-ethereum.svg" alt="">
+          <p class="card__points-user">0.041 ETH</p>
+        </div>
+        <div class="card__time flex-group">
+          <img src="images/icon-clock.svg" alt="">
+          <p class="card__time-left">3 days left</p>
+        </div>  
       </div>
-      <div class="card__time flex-group">
-        <img src="images/icon-clock.svg" alt="">
-        <p class="card__time-left">3 days left</p>
-      </div>  
-    </div>
-    <hr>
-    <div class="card__profile flex-group">
-      <img class="card__profile-image" src="images/image-avatar.png" alt="Jules Wyvern">
-      <p class="card__profile-user">Creation of <span class="name"><a href="#">Jules Wyvern</a></span></p>
-    </div>
-  </article>
+      <hr>
+      <div class="card__profile flex-group">
+        <img class="card__profile-image" src="images/image-avatar.png" alt="Jules Wyvern">
+        <p class="card__profile-user">Creation of <span class="name"><a href="#">Jules Wyvern</a></span></p>
+      </div>
+    </article>
+</main>
 </body>
 </html>
